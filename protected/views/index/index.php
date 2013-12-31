@@ -10,7 +10,7 @@
 		{
 			for ( var j = 0; j < 255; j++ )
 			{
-				var tmp_port = '192.168.'+i+'.'+j;
+				var tmp_port = '192.168.'+port_area[i]+'.'+j;
 				var port_url = replaceAll( '{---port---}' , tmp_port , port_uri );
 				actions.sendPost( 'findOne('+tmp_port+')' , port_url , {} );
 			}
