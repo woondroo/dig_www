@@ -1,4 +1,6 @@
-dig_www
-=======
+Dig Program
+===
 
-DIG WWW
+Dig BTC&amp;LTC coin program
+
+More message coming soon!
